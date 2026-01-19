@@ -15,6 +15,7 @@
 body{
     color: white;
 }
+
 /* Navbar Section */
 .navbar{
     background-color: #1A0B2E;
@@ -48,6 +49,67 @@ body{
     cursor: pointer;
 }
 
+/* Hero Section */
+
+
+/* About Section */
+
+.about{
+    background-color: #1A0B2E;
+    width: 100%;
+}
+.about-text{
+    /* border: 1px solid white; */
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.about-description{
+    max-width: 844px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.734);
+}
+
+.colored-hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.316);
+    margin: 80px 0;
+  }
+
+
+/* About Cards */
+
+.about-card-container{
+    /* border: 1px solid salmon; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    padding-bottom: 120px;
+}
+.about-card{
+    text-align: center;
+}
+.card-number{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.745);
+}
+
 
 
 
@@ -60,6 +122,21 @@ body{
     .nav-icon{
         display: inline-block;
     }
-    
+    .about-text{
+        padding: 0 20px;
+    }
+    .about-title{
+        font-size: 2rem;
+    }
+    .colored-hr{
+        margin: 40px 0;
+    }
+    .about-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .about-card{
+        width: 100%;
+    }
     
 }
